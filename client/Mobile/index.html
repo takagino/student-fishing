@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Client</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        #startButton {
+            position: fixed;
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 90px 30px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 99;
+        }
+
+        #sensorValues {
+            display: none;
+        }
+
+        body {
+            background: url("../Mobile/turizao.svg") no-repeat center center fixed;
+        }
+
+        #closeButton {
+            display: none;
+            position: fixed;
+            width: 80%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 90px 30px;
+            font-size: 16px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 99;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="startButton">ボタンを押してジャイロセンサーを許可してください！</button>
+    <div id="sensorValues">
+        <p class="sensor-value">X: <span id="x-value">0</span></p>
+        <p class="sensor-value">Y: <span id="y-value">0</span></p>
+        <p class="sensor-value">Z: <span id="z-value">0</span></p>
+    </div>
+    <button id="closeButton">ポップアップを閉じる</button>
+
+    <script src="./js/mobile.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "マグロ",
+    "description": "人気の寿司ネタ。最近、見た目がカツオやサバと似てきてしまったので悩んでいる。高速で泳ぐことができ、長距離を移動することが特徴。",
+    "size_cm": 250,
+    "rarity": 3,
+    "image": "../images/maguro.svg"
+  },
+  {
+    "name": "サケ",
+    "description": "人気の寿司ネタ。川で生まれ海で成長し、再び川に戻って産卵する。産卵後は死んでしまうことが多いが、どうせ死ぬなら美味しく食べられたいと思っている。",
+    "size_cm": 100,
+    "rarity": 2,
+    "image": "../images/sake.svg"
+  },
+  {
+    "name": "ぴえん魚",
+    "description": "食べられたくなさそうな顔で見てくるため、釣っても食べずに逃がしてしまう人が多い。他のどの魚よりも味や見た目などすべての点において自分が上だと思っている。",
+    "size_cm": 80,
+    "rarity": 4,
+    "image": "../images/pien.svg"
+  },
+  {
+    "name": "たいやき",
+    "description": "自由を夢見るお菓子。食べられるのが嫌で、型を飛び出し海へ逃げ込むが、甘い香りで誰かに見つかり結局食べられてしまう。",
+    "size_cm": 20,
+    "rarity": 5,
+    "image": "../images/taiyaki.svg"
+  },
+  {
+    "name": "アジ",
+    "description": "影が薄い刺身。美味しいけど、どこでも釣れるため、喜びより「またアジか」と言われることも。",
+    "size_cm": 30,
+    "rarity": 2,
+    "image": "../images/aji.svg"
+  },
+  {
+    "name": "タツノオトシゴ",
+    "description": "直立して泳ぐ姿が印象的な魚。オスが妊娠し、出産するという珍しい特徴を持つ。最近、クリオネを食べすぎて太ったらしい。",
+    "size_cm": 35,
+    "rarity": 3,
+    "image": "../images/tatunootosigo.svg"
+  },
+  {
+    "name": "人面魚",
+    "description": "釣り上げた人はもれなく悲鳴を上げている。何かを言いたそうにじっと見つめてくるが、無視してリリースしよう。",
+    "size_cm": 20,
+    "rarity": 6,
+    "image": "../images/zinnmenngyo.svg"
+  },
+  {
+    "name": "長ぐつ",
+    "description": "嫌な匂いのする長ぐつ。その場で投げ捨てたくなる気持ちを抑えて、地球のために持ち帰って捨てよう。",
+    "size_cm": 27,
+    "rarity": 1,
+    "image": "../images/nagagutu.svg"
+  }
+]

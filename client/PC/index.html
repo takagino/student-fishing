@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>PC Display</title>
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <!-- <h1>Gyroscope Values</h1>
+    <div class="sensor-value">X: <span id="x-value">0</span></div>
+    <div class="sensor-value">Y: <span id="y-value">0</span></div>
+    <div class="sensor-value">Z: <span id="z-value">0</span></div> -->
+  <div id="popup" style="display: none;">
+    <div>
+      <button id="popup-close">閉じる</button>
+      <img id="fish-image" src="" alt="魚の画像">
+      <h2 id="fish-name"></h2>
+      <p id="fish-description"></p>
+      <p id="fish-size"></p>
+      <p id="fish-rarity"></p>
+    </div>
+  </div>
+  <canvas id="gameCanvas"></canvas>
+  <script src="./js/fishing.js"></script>
+  <script src="./js/connection.js"></script>
+</body>
+
+</html>

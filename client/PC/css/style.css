@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body {
+  background: #87ceeb;
+}
+
+.sensor-value {
+  font-size: 24px;
+  margin: 20px;
+}
+
+/* ポップアップのスタイル */
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+#popup img {
+  width: 350px;
+  margin: 0 auto;
+  display: block;
+  height: auto;
+}
+#fish-name {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+#fish-description {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#fish-size {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#fish-rarity {
+  margin-top: 20px;
+  font-size: 20px;
+}
+#popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#popup-close:hover {
+  background-color: darkred;
+}
